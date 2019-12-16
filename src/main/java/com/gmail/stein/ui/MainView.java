@@ -51,7 +51,7 @@ public class MainView extends AppLayout {
 		confirmDialog.setCancelButtonTheme("raised tertiary");
 
 		this.setDrawerOpened(false);
-		Span appName = new Span("My Starter Project");
+		Span appName = new Span("My Vaadin Starter Project");
 		appName.addClassName("hide-on-mobile");
 
 		menu = createMenuTabs();
